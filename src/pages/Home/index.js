@@ -9,7 +9,7 @@ import * as CartActions from '../../store/modules/cart/actions';
 
 class Home extends Component {
   state = {
-    products: [],
+    product: [],
   };
 
   async componentDidMount() {
